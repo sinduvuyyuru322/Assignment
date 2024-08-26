@@ -1,0 +1,16 @@
+a = "sindu" #here a is variable "sindu" is data
+print(a)
+addition_1 = 10 
+addition_2 = 20
+print(addition_1+addition_2)
+print(addition_2-addition_1)
+print(addition_1*addition_2)
+print(addition_1%addition_2)
+print(addition_1//addition_2)
+print(type(addition_1))
+type_1 = "prameela"
+type_2 = 2.5
+type_3 = True
+print(type(type_1))
+print(type(type_2))
+print(type(type_3))
