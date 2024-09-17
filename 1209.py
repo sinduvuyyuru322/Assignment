@@ -2,13 +2,13 @@
 tuple_1 = eval(input())
 lis = []
 for i in tuple_1:
-    a_str = str(i)
-    if len(a_str) == 1:
-        lis.append(int(a_str))
+    if str(i).isdigit():
+        lis.append(i)
     else:
         a_list = list(i)
         for i in a_list:
             lis.append(i)
+    
 print(lis)
     
 #write a python program to sort a tuple based on the second element of each tuple 
