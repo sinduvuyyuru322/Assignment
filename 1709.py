@@ -10,19 +10,17 @@ print(list(l1))
 
 seq = "Learing python is very easy"
 seq_1 = seq.split()
-l1 = lambda seq_1:seq_1[::-1]
-k = l1(seq_1)
+l1 = seq_1[::-1]
 a = ""
-for i in k:
+for i in l1:
     a+=i+" "
 print(a)
 
 #print reverse of reverse str
 y = ""
-for i in k:
+for i in l1:
     y+=i[::-1]+" "
 print(y)
-
 
 #create a dictonary where the keys are tuple representing coordinates (x,y) and the values
 #are city names.write a python program to print the city name
@@ -59,4 +57,3 @@ for i in tup:
         for j in list(i):
             li.append(j)
 print(tuple(li))
-    
