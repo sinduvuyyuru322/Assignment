@@ -1,8 +1,10 @@
 def function(dict_in,dict_prise):
+
     n = int(input())
     for i in range(n):
         function_1(dict_in)
     count = 0
+
     for i,j in dict_in.items():
         for a,b in dict_prise.items():
             if i == a:
