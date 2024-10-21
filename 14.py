@@ -1,4 +1,4 @@
-class Animal:
+"""class Animal:
     def __init__(self,name):
         self.name = name
         
@@ -116,4 +116,6 @@ obj = SmartPhone("Iphone",9999999998,"2inches","tizen")
 obj.display()
 obj.c1
 
-
+"""
+a = sindu .split()
+print(a)
