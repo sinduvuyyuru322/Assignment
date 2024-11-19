@@ -1,4 +1,4 @@
-# variable is nothing but a container
+"""# variable is nothing but a container
 #object in general anything that can be assign to a variable
 a = int(input("enter the value:"))
 b = int(input("enter the value:"))
@@ -51,4 +51,12 @@ print(keywords.kwlist)
 #to find the unicode value of a cha 
 print(ord("A"))
 #to find the cha with given unicode 
-print(chr(120))
+print(chr(120))"""
+
+a = "sinduvuyyuru"
+b = "aeiou"
+for i in a:
+    if i in b:
+        v = a.split(i)
+        print("@".join(v))
+        break;

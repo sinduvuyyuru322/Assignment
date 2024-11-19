@@ -1,4 +1,4 @@
-def function(dict_in,dict_prise):
+"""def function(dict_in,dict_prise):
 
     n = int(input())
     for i in range(n):
@@ -32,4 +32,6 @@ def function(seq_1):
         print("Your number is greater than guess")
 
 seq = input()
-function(seq)
+function(seq)"""
+a = {2,3,4}
+print(max(a))
