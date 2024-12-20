@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="button-container"class = "container" style="background-color: beige;border-radius: 10px; border-radius:10px; border-color: black;width:50%;padding:3px;margin: 10px; text-align: center;">
+            <a href="{% url 'Postdetails' %}" class="btn">Read</a>
+        </div>
+        <div class = "container" style="background-color: beige;border-radius: 10px; border-radius:10px;  border-color: black;width:50%;padding:3px;padding-bottom: 10px;margin-bottom: 10px; text-align: center;">
+            <a href="{% url 'getbooks' %}" class="btn update">Get books</a>
+        </div>
+        <div class = "container" style="background-color: beige;border-radius: 10px; border-radius:10px; border-color: black;width:50%;padding:3px;padding-bottom:10px; margin-bottom: 10px;text-align: center;">
+            <a href="{% url 'updatebooks' %}" class="btn delete">updatebooks</a>
+        </div>
+        <div class = "container" style="background-color: beige;border-radius: 10px; border-radius:10px; border-color: black;width:50%;padding:3px;padding-bottom:10px; margin: 10px; text-align: center;">
+            <a href="{% url 'deletebook' %}" class="btn delete">Delete</a>
+        </div>
+
+</body>
+</html>
